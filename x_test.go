@@ -14,7 +14,7 @@ func TestDoc(t *testing.T) {
 		panic(err)
 	}
 
-	e := d.FindOne(`//div[@class="formArea1 formAreaCom"]`).CountChild()
+	e := d.FindOne(`//div[@class="formArea1 formAreaCom"]`)
 	fmt.Println(e)
 }
 
