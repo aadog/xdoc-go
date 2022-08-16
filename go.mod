@@ -1,4 +1,4 @@
-module xdoc-go
+module github.com/aadog/xdoc-go
 
 go 1.19
 
